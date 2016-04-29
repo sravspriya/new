@@ -34,22 +34,7 @@
 
     Example of pluging an obfuscator after the compilation could look like 
 
-        <target name="build-war">
-
-
-  <war destfile="C:\Program Files\agent\var\work\Demo-Comp\dist\Project.war" webxml="C:\Program Files\agent\var\work\Demo-Comp\web\WEB-INF\web.xml">
-   <!--Give the WebContent folder path-->
-      <fileset dir="C:\Program Files\agent\var\work\Demo-Comp\web">
-         <include name="**/*.*"/>
-      </fileset>
-      <!--Give the lib folder path-->
-      <lib dir="C:\Program Files\agent\var\work\Demo-Comp\WEB-INF\lib">
-         
-      </lib>
-      <!--Give the classes folder path-->
-    
-   </war>
-        </target>
+       
 
     For list of available properties check the imported 
     nbproject/build-impl.xml file. 
@@ -79,4 +64,20 @@
     nbproject/build-impl.xml file. 
 
     -->
+	<target name="build-war">
+
+
+  <war destfile="C:\Program Files\agent\var\work\Testing Component\dist\Testing.war" webxml="C:\Program Files\agent\var\work\Testing Component\web\WEB-INF\web.xml">
+   <!--Give the WebContent folder path-->
+      <fileset dir="C:\Program Files\agent\var\work\Testing Component\web">
+         <include name="**/*.*"/>
+      </fileset>
+      <!--Give the lib folder path-->
+      <lib dir="C:\Program Files\agent\var\work\Testing Component\WEB-INF\lib">
+         
+      </lib>
+      <!--Give the classes folder path-->
+    
+   </war>
+</target>
 </project>
