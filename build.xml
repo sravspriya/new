@@ -67,7 +67,7 @@
 	<target name="build-war">
 
 
-  <war destfile="C:\Program Files\agent\var\work\Testing Component\dist\Testing.war" webxml="C:\Program Files\agent\var\work\Testing Component\web\WEB-INF\web.xml">
+  <war destfile="C:\Program Files\agent\var\work\Testing Component\dists\Testing.war" webxml="C:\Program Files\agent\var\work\Testing Component\web\WEB-INF\web.xml">
    <!--Give the WebContent folder path-->
       <fileset dir="C:\Program Files\agent\var\work\Testing Component\web">
          <include name="**/*.*"/>
